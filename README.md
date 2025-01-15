@@ -12,7 +12,7 @@ This repository contains helper functions used for data analysis in the study ti
 
 - **`roc_curve_utils.R`**
   - **Function:** `roc.curve`
-  - **Description:** Processes ROC curves to compute mean specificities, sensitivities, AUC values, and their confidence intervals.
+  - **Description:** Processes multiple ROC curves to compute mean specificities, sensitivities, AUC values, and their confidence intervals.
 
 - **`cross_validation_utils.R`**
   - **Function:** `cross_fold_calcs_roc`
@@ -37,7 +37,7 @@ Figure 6 shows the performance metrics of our proteomics-based logistic regressi
     - **≥F2:** C7, ALDOB, ICAM1, CTSD, IGF2
     - **MASLD:** AFM, APOF, ALDOB, PRG4, IGF1
 
-- **Metrics Covered:**
+- **Metrics:**
   - Receiver-Operator Characteristic (ROC) Curves
   - Balanced Accuracy
   - F1 Score
@@ -76,7 +76,6 @@ print(results$output_combined)
 print(average_roc)
 print(metrics)
 ```
-
 
 ## Citation
 
