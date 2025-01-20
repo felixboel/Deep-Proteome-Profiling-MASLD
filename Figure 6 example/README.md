@@ -12,7 +12,6 @@ This subdirectory contains the reproducible example for Figure 6 from our study 
 
 
    ```markdown
-   ```plaintext
    reproducible_example_fig6/
    ├── data/
    │   └── # (Data files will be added here upon journal acceptance)
