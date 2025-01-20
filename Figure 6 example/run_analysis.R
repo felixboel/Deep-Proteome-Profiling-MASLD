@@ -83,7 +83,7 @@ plasma_mini_masld <- plasma_proteomics_data[rownames(plasma_proteomics_data) %in
 #--------------------------#
 
 clinical_data <- read.delim2(
-  "data/Supplementary Data 1_Meta_new.txt",
+  "data/Supplementary Data 1_Meta.txt",
   sep = "\t",
   dec = ".",
   skip = 0,
