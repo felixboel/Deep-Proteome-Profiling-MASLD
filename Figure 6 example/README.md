@@ -43,6 +43,7 @@ These packages will be installed automatically when you run the script if they a
 
 The run_analysis.R script performs the following steps:
 	1.	**Load Dependencies:** Installs and loads the required R packages.
+ 
 	2.	**Source Utility Functions:** Loads helper functions from roc_curve_utils.R, cross_validation_utils.R, and metric_calculations.R.
 	3.	**Load Plasma and Clinical Data:** Reads and preprocesses the proteomics and clinical datasets.
 	4.	**Define Targets:** Creates binary classification targets for F2 (Fibrosis) and MASLD.
