@@ -1,4 +1,4 @@
-# Reproducible Example for Fig. 6
+# Reproducible Example (Fig. 6)
 
 **Felix Boel**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This subdirectory contains the reproducible example for Figure 6 from our study titled “Deep Proteome Profiling of Metabolic Dysfunction-Associated Steatotic Liver Disease” by Boel et al. The example demonstrates how to load clinical and proteomics data, perform classification and ROC analyses, and generate the corresponding plots for Figure 6.
+This subdirectory contains a reproducible example for Figure 6 from our study titled “Deep Proteome Profiling of Metabolic Dysfunction-Associated Steatotic Liver Disease” by Boel et al. The example demonstrates how to load clinical and proteomics data, perform classification and ROC analyses, and generate the corresponding plots for Figure 6.
 
 ## Repository Structure
 
