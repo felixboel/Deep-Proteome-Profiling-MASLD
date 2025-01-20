@@ -10,13 +10,17 @@ This subdirectory contains the reproducible example for Figure 6 from our study 
 
 ## Repository Structure
 
-reproducible_example_fig6/
-├── data/
-│   └── # (Data files will be added here upon journal acceptance)
-├── plots/
-│   └── # Generated plots will be saved here
-├── run_analysis.R
-└── README.md
+
+   ```markdown
+   ```plaintext
+   reproducible_example_fig6/
+   ├── data/
+   │   └── # (Data files will be added here upon journal acceptance)
+   ├── plots/
+   │   └── # Generated plots will be saved here
+   ├── run_analysis.R
+   └── README.md
+   ```
 
 - **`run_analysis.R`**
   - **Description:** R script that performs the entire analysis workflow to reproduce Figure 6. It includes data loading, preprocessing, model training, cross-validation, metric calculations, and plotting.
