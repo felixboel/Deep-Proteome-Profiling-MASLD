@@ -1,3 +1,3 @@
-# Plots from Figure 6 | Reproducible example
+## Plots from Figure 6
 
 **Felix Boel**
