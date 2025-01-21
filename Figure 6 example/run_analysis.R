@@ -373,6 +373,11 @@ ggplot() +
     aes(y = Metric, x = value, fill = Metric),
     color = "black", width = 0.7
   ) +
+  geom_jitter(
+    data = combined_simple_acc[!(combined_simple_acc$Var2 %in% c("SD", "Mean")) & combined_simple_acc$Test == "MASLD", ],
+    aes(y = Metric, x = value, fill = Metric),
+    color = "black", height = 0.1, size = 0.1, alpha = 0.2, shape = 16
+  ) +
   geom_errorbar(
     data = combined_simple_acc[combined_simple_acc$Var2 == "SD" & combined_simple_acc$Test == "MASLD", ],
     aes(
@@ -413,6 +418,11 @@ ggplot() +
     data = combined_simple_acc[combined_simple_acc$Var2 == "Mean" & combined_simple_acc$Test == "F2", ],
     aes(y = Metric, x = value, fill = Metric),
     color = "black", width = 0.7
+  ) +
+  geom_jitter(
+    data = combined_simple_acc[!(combined_simple_acc$Var2 %in% c("SD", "Mean")) & combined_simple_acc$Test == "F2", ],
+    aes(y = Metric, x = value, fill = Metric),
+    color = "black", height = 0.1, size = 0.1, alpha = 0.2, shape = 16
   ) +
   geom_errorbar(
     data = combined_simple_acc[combined_simple_acc$Var2 == "SD" & combined_simple_acc$Test == "F2", ],
