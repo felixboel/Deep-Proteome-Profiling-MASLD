@@ -43,13 +43,17 @@ These packages will be installed automatically when you run the script if they a
 
 1. **Load Dependencies:** Installs and loads the required R packages.
 2. **Source Utility Functions:** Loads helper functions from `roc_curve_utils.R`, `cross_validation_utils.R`, and `metric_calculations.R`.
-3. **Load Plasma and Clinical Data:** Reads and preprocesses the proteomics and clinical datasets.
-4. **Define Targets:** Creates binary classification targets for F2 (Fibrosis) and MASLD.
-5. **Merge Clinical & Plasma Data:** Combines clinical data with proteomics data for both baseline and follow-up samples.
-6. **Set Cross-Validation Parameters:** Configures k-fold cross-validation with specified repetitions.
-7. **Perform Cross-Validated ROC Calculations:** Evaluates different models (APRI, FIB4, Proteomics) using cross-validation.
-8. **Calculate Simple Metrics:** Computes basic classification metrics like Accuracy and F1-Score.
-9. **Combine and Plot Metrics:** Aggregates metrics and generates performance plots saved in the `plots/` directory.
+3. **Load Plasma Data:** Reads and preprocesses the proteomics dataset.
+4. **Load Clinical Data:** Reads and preprocesses the clinical dataset.
+5. **Define Targets:** Creates binary classification targets for significant fibrosis (≥F2) and MASLD.
+6. **Merge Clinical & Plasma Data:** Combines clinical data with proteomics data for both baseline and follow-up samples.
+7. **Set Cross-Validation Parameters:** Configures k-fold cross-validation with specified repetitions.
+8. **Perform Cross-Validated ROC Calculations:** Evaluates different models (APRI, FIB4, Proteomics) using cross-validation.
+9. **Calculate Simple Metrics:** Computes basic classification metrics like Accuracy and F1-Score.
+10. **Combine Performance Metrics:** Aggregates metrics from simple models and cross-validated logistic regression models.
+11. **Plot Performance Metrics:** Generates performance plots saved in the `plots/` directory.
+12. **Additional ROC Analysis:** Recomputes preprocesses AUC-based metrics.
+13. **Plot ROC Curves:** Generates ROC curve plots saved in the `plots/` directory.
 
 ## Citation
 
